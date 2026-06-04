@@ -11,6 +11,25 @@ FreelanceHub is a premier community for ambitious independent professionals. It 
 - **AI Support Agent:** A smart, built-in AI chatbot (powered by a local Python FastAPI backend) that provides 24/7 contextual help to users, answers queries about platform usage, and reduces support tickets.
 - **Admin Dashboard:** Powerful admin capabilities to manage users, categories, applications, jobs, and platform settings.
 
+## 📸 Screenshots
+
+ 
+| Home / Landing Page | mobile screeen |
+|---|---|
+| ![Home Page](home.png) | ![Dynamic](dynamic.png) |
+ 
+| Job Listings | Job Description |
+|---|---|
+| ![Job Listings](jobs.png) | ![Job Description](description.png) |
+ 
+| AI Chat Agent | Admin Dashboard |
+|---|---|
+| ![AI Chat](ai-chat.png) | ![Admin](admin.png) |
+ 
+> 📂 **Full-resolution screenshots and a project walkthrough video are available in the [Google Drive folder](https://drive.google.com/file/d/1KuMzlcIozV6VRJdOG9X9t39fXp1L7YLW/view?usp=sharing).**
+ 
+---
+
 ## 🛠 Tech Stack
 
 - **Backend (Main):** [Laravel](https://laravel.com/) (PHP)
