@@ -24,7 +24,7 @@ FreelanceHub is a premier community for ambitious independent professionals. It 
  
 | AI Chat Agent | Admin Dashboard |
 |---|---|
-| ![AI Chat](ai-chat.png) | ![Admin](admin.png) |
+| ![AI Chat](ai_chat.png) | ![Admin](admin.png) |
  
 > 📂 **Full-resolution screenshots and a project walkthrough video are available in the [Google Drive folder](https://drive.google.com/file/d/1KuMzlcIozV6VRJdOG9X9t39fXp1L7YLW/view?usp=sharing).**
  
@@ -52,7 +52,7 @@ Follow these steps to set up the project locally.
 Clone the repository and install the PHP dependencies:
 
 ```bash
-git clone https://github.com/your-username/freelancehub.git
+git clone https://github.com/sumaiyashifa/freelancehub.git
 cd freelancehub
 composer install
 ```
