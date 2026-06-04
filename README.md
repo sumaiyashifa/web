@@ -26,7 +26,7 @@ FreelanceHub is a premier community for ambitious independent professionals. It 
 |---|---|
 | ![AI Chat](ai_chat.png) | ![Admin](admin.png) |
  
-> 📂 **Full-resolution screenshots and a project walkthrough video are available in the [Google Drive folder](https://drive.google.com/file/d/1KuMzlcIozV6VRJdOG9X9t39fXp1L7YLW/view?usp=sharing).**
+> 📂 **A project walkthrough video are available in the [Google Drive](https://drive.google.com/file/d/1KuMzlcIozV6VRJdOG9X9t39fXp1L7YLW/view?usp=sharing).**
  
 ---
 
