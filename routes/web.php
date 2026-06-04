@@ -10,6 +10,7 @@ use App\Http\Controllers\Jobs\JobsController;
 use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\BlogsController;
 use App\Http\Controllers\NewsController;
+use App\Http\Controllers\AIChatController;
 
 
 Route::get('/fetch-notifications', 'NotificationController@fetchNotifications')->middleware('auth:admin');
@@ -116,3 +117,5 @@ Route::delete('/deleteUserInfo', 'App\Http\Controllers\StripeController@deleteUs
 Route::delete('/deletemessage', 'App\Http\Controllers\Admins\AdminsController@deletemessage')->name('deletemessage');
 //blog route
 Route::get('/blogs',[BlogsController::class,'index'] )->name('blogs');
+Route::post('/ai-chat', [App\Http\Controllers\AIChatController::class, 'chat']);
+Route::post('/ai-chat/clear', [App\Http\Controllers\AIChatController::class, 'clearChat']);

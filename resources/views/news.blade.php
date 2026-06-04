@@ -113,7 +113,8 @@
                                 </div>
                             </div>
                             <div class="col-xxl-3 col-xl-3 col-lg-6 col-md-8 col-sm-7 col-4">
-                                <div class="header__bottom-right-6 d-flex justify-content-end align-items-center pl-30">
+                                <div
+                                    class="header__bottom-right-6 d-flex justify-content-end align-items-center pl-30">
 
                                     <div class="dropdown  hide-menu" style="font-size: 18px">
                                         @auth
@@ -205,7 +206,7 @@
                                 <li class="offcanvas__contact-mail" style="font-weight: bold;">
                                     <a href="#" data-toggle="dropdown">{{ Auth::user()->name }}<span
                                             class="caret"></span></a>
-                                    <div class="dropdown-menu" >
+                                    <div class="dropdown-menu">
                                         <a class="dropdown-item" href="{{ route('profile') }}">
                                             <i class="fa fa-user-circle"></i> View Profile
                                         </a>
@@ -268,10 +269,10 @@
             </div>
         </div>
     </div>
-   
+
 
     <!-- Nav Bar Start -->
-    
+
     <!-- Nav Bar End -->
 
 
@@ -297,8 +298,7 @@
                                             <img src="{{ $article['urlToImage'] }}" />
                                         </div>
                                         <div class="tn-title">
-                                            <a
-                                                href="{{ $article['url'] }}">{{ $article['title']}}</a>
+                                            <a href="{{ $article['url'] }}">{{ $article['title'] }}</a>
                                         </div>
                                     </div>
                                 @endif
@@ -312,8 +312,7 @@
                                             <img src="{{ $article['urlToImage'] }}" />
                                         </div>
                                         <div class="tn-title">
-                                            <a
-                                                href="{{ $article['url'] }}">{{ $article['title'] }}</a>
+                                            <a href="{{ $article['url'] }}">{{ $article['title'] }}</a>
                                         </div>
                                     </div>
                                 @endif
@@ -341,8 +340,7 @@
                                             <img src="{{ $article['urlToImage'] }}" />
                                         </div>
                                         <div class="tn-title">
-                                            <a
-                                                href="{{ $article['url'] }}">{{ $article['title']}}</a>
+                                            <a href="{{ $article['url'] }}">{{ $article['title'] }}</a>
                                         </div>
                                     </div>
                                 @endif
@@ -356,8 +354,7 @@
                                             <img src="{{ $article['urlToImage'] }}" />
                                         </div>
                                         <div class="tn-title">
-                                            <a
-                                                href="{{ $article['url'] }}">{{ $article['title']}}</a>
+                                            <a href="{{ $article['url'] }}">{{ $article['title'] }}</a>
                                         </div>
                                     </div>
                                 @endif
@@ -408,8 +405,8 @@
                                     <ul>
                                         <li><a href="https://freelancehub.io/">Home</a></li>
                                         <li><a href="https://freelancehub.io/about-us">About</a></li>
-                                        <li><a href="https://freelancehub.io/powerups">Powerups</a></li>
-                                        <li><a href="https://freelancehub.io/contact">Contact</a></li>
+
+                                        <li><a href="{{ route('contact') }}">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -462,46 +459,46 @@
             </div>
         </div>
     </footer>
-</div>
-<script src="{{ asset('asset/js/jquery.min.js') }}"></script>
-<script src="{{ asset('asset/js/bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('asset/js/isotope.pkgd.min.js') }}"></script>
-<script src="{{ asset('asset/js/stickyfill.min.js') }}"></script>
-<script src="{{ asset('asset/js/jquery.fancybox.min.js') }}"></script>
-<script src="{{ asset('asset/js/jquery.easing.1.3.js') }}"></script>
+    </div>
+    <script src="{{ asset('asset/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('asset/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('asset/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('asset/js/stickyfill.min.js') }}"></script>
+    <script src="{{ asset('asset/js/jquery.fancybox.min.js') }}"></script>
+    <script src="{{ asset('asset/js/jquery.easing.1.3.js') }}"></script>
 
-<script src="{{ asset('asset/js/jquery.waypoints.min.js') }}"></script>
-<script src="{{ asset('asset/js/jquery.animateNumber.min.js') }}"></script>
-<script src="{{ asset('asset/js/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('asset/js/quill.min.js') }}"></script>
-
-
-<script src="{{ asset('asset/js/bootstrap-select.min.js') }}"></script>
-
-<script src="{{ asset('asset/js/custom.js') }} "></script>
+    <script src="{{ asset('asset/js/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ asset('asset/js/jquery.animateNumber.min.js') }}"></script>
+    <script src="{{ asset('asset/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('asset/js/quill.min.js') }}"></script>
 
 
+    <script src="{{ asset('asset/js/bootstrap-select.min.js') }}"></script>
 
-<script src="{{ asset('assets/js/vendor/waypoints.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/bootstrap-bundle.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/meanmenu.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/swiper-bundle.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/slick.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/nouislider.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/magnific-popup.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/jarallax.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/parallax.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/backtotop.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/nice-select.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/purecounter.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/wow.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/isotope-pkgd.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/imagesloaded-pkgd.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/charming.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/hover-reveal.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/tween-max.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/ajax-form.js') }}"></script>
-<script src="{{ asset('assets/js/vendor/main.js') }}"></script>
+    <script src="{{ asset('asset/js/custom.js') }} "></script>
+
+
+
+    <script src="{{ asset('assets/js/vendor/waypoints.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/bootstrap-bundle.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/meanmenu.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/swiper-bundle.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/slick.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/nouislider.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/magnific-popup.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/jarallax.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/parallax.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/backtotop.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/nice-select.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/purecounter.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/wow.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/isotope-pkgd.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/imagesloaded-pkgd.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/charming.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/hover-reveal.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/tween-max.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/ajax-form.js') }}"></script>
+    <script src="{{ asset('assets/js/vendor/main.js') }}"></script>
     <!-- Back to Top -->
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
